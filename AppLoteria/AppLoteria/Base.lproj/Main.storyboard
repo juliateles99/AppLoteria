@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top" translatesAutoresizingMaskIntoConstraints="NO" id="AWj-sr-vgP">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="173"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="top" translatesAutoresizingMaskIntoConstraints="NO" id="AWj-sr-vgP">
+                                <rect key="frame" x="0.0" y="-12" width="414" height="185"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="AWj-sr-vgP" secondAttribute="height" multiplier="414:173" id="lHA-ec-63t"/>
                                 </constraints>
@@ -59,98 +59,106 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Awz-UC-pU8">
-                                <rect key="frame" x="49" y="340" width="316" height="216"/>
+                                <rect key="frame" x="56.5" y="361" width="301" height="174"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WPS-rt-Xg0">
-                                        <rect key="frame" x="0.0" y="0.0" width="316" height="104"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="301" height="83"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUH-rb-8EJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="104"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="83" id="Jzv-zV-Wu6"/>
+                                                    <constraint firstAttribute="width" constant="95" id="Tyd-n8-ALA"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="95" id="t66-A8-jpu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="60" image="ball"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="ball" title="60" imagePadding="-69">
-                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="44"/>
-                                                </buttonConfiguration>
+                                                <state key="normal" title="60" backgroundImage="ball"/>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rt2-xj-BKL">
-                                                <rect key="frame" x="108" y="0.0" width="100" height="104"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                                <rect key="frame" x="103" y="0.0" width="95" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="95" id="S3r-OM-Ec3"/>
+                                                    <constraint firstAttribute="height" constant="83" id="cq7-vI-eiI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="60" image="ball"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="ball" title="60" imagePadding="-69">
-                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="44"/>
-                                                </buttonConfiguration>
+                                                <state key="normal" title="60" backgroundImage="ball"/>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poi-sb-826">
-                                                <rect key="frame" x="216" y="0.0" width="100" height="104"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                                <rect key="frame" x="206" y="0.0" width="95" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="83" id="VC6-nz-Xob"/>
+                                                    <constraint firstAttribute="width" constant="95" id="ndF-gE-UGn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="60" image="ball"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="ball" title="60" imagePadding="-69">
-                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="44"/>
-                                                </buttonConfiguration>
+                                                <state key="normal" title="60" backgroundImage="ball"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QZj-o8-eUS">
-                                        <rect key="frame" x="0.0" y="112" width="316" height="104"/>
+                                        <rect key="frame" x="0.0" y="91" width="301" height="83"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5B-pY-sgB">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="104"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="83" id="jjW-7g-Cyb"/>
+                                                    <constraint firstAttribute="width" constant="95" id="rBb-Ut-HfN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="60" image="ball"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="ball" title="60" imagePadding="-69">
-                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="44"/>
-                                                </buttonConfiguration>
+                                                <state key="normal" title="60" backgroundImage="ball"/>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3P-8B-clx">
-                                                <rect key="frame" x="108" y="0.0" width="100" height="104"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                                <rect key="frame" x="103" y="0.0" width="95" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="95" id="EvP-uy-LlW"/>
+                                                    <constraint firstAttribute="height" constant="83" id="hwe-Fy-L5r"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="60" image="ball"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="ball" title="60" imagePadding="-69">
-                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="44"/>
-                                                </buttonConfiguration>
+                                                <state key="normal" title="60" backgroundImage="ball"/>
                                             </button>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4u8-2o-xvN">
-                                                <rect key="frame" x="216" y="0.0" width="100" height="104"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                                <rect key="frame" x="206" y="0.0" width="95" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="83" id="lXu-6S-1tY"/>
+                                                    <constraint firstAttribute="width" constant="95" id="tB0-KH-63e"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="60" image="ball"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="ball" title="60" imagePadding="-69">
-                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="44"/>
-                                                </buttonConfiguration>
+                                                <state key="normal" title="60" backgroundImage="ball"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="yoS-Bi-FfE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="AWj-sr-vgP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="13t-LR-rGP"/>
-                            <constraint firstItem="AWj-sr-vgP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1G9-Zf-oH2"/>
+                            <constraint firstItem="AWj-sr-vgP" firstAttribute="leading" secondItem="yoS-Bi-FfE" secondAttribute="leading" id="13t-LR-rGP"/>
+                            <constraint firstItem="AWj-sr-vgP" firstAttribute="trailing" secondItem="yoS-Bi-FfE" secondAttribute="trailing" id="1G9-Zf-oH2"/>
                             <constraint firstItem="Awz-UC-pU8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3aH-kY-sb9"/>
-                            <constraint firstItem="QIZ-i0-1E8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3oM-wG-kil"/>
-                            <constraint firstItem="MEa-Bk-GPr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="IUu-xw-bza"/>
+                            <constraint firstItem="QIZ-i0-1E8" firstAttribute="leading" secondItem="yoS-Bi-FfE" secondAttribute="leading" constant="16" id="3oM-wG-kil"/>
+                            <constraint firstItem="AWj-sr-vgP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FdE-S2-XPg"/>
+                            <constraint firstItem="MEa-Bk-GPr" firstAttribute="leading" secondItem="yoS-Bi-FfE" secondAttribute="leading" constant="16" id="IUu-xw-bza"/>
                             <constraint firstItem="V2U-mv-WZ8" firstAttribute="top" secondItem="AWj-sr-vgP" secondAttribute="bottom" constant="16" id="Nky-MW-u0s"/>
-                            <constraint firstItem="V2U-mv-WZ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cgh-0U-VTb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V2U-mv-WZ8" secondAttribute="trailing" constant="16" id="gEZ-AF-pYH"/>
+                            <constraint firstItem="V2U-mv-WZ8" firstAttribute="leading" secondItem="yoS-Bi-FfE" secondAttribute="leading" constant="16" id="cgh-0U-VTb"/>
+                            <constraint firstItem="yoS-Bi-FfE" firstAttribute="trailing" secondItem="V2U-mv-WZ8" secondAttribute="trailing" constant="16" id="gEZ-AF-pYH"/>
                             <constraint firstItem="AWj-sr-vgP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mMX-Al-wZY"/>
-                            <constraint firstItem="QIZ-i0-1E8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="mco-Z8-dEY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MEa-Bk-GPr" secondAttribute="bottom" constant="30" id="oHh-aM-dnV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QIZ-i0-1E8" secondAttribute="trailing" constant="16" id="pIG-MH-iOR"/>
-                            <constraint firstItem="Awz-UC-pU8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xPm-jp-LSh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MEa-Bk-GPr" secondAttribute="trailing" constant="16" id="ybc-Os-nHa"/>
+                            <constraint firstItem="QIZ-i0-1E8" firstAttribute="top" secondItem="yoS-Bi-FfE" secondAttribute="top" constant="13" id="mco-Z8-dEY"/>
+                            <constraint firstItem="yoS-Bi-FfE" firstAttribute="bottom" secondItem="MEa-Bk-GPr" secondAttribute="bottom" constant="30" id="oHh-aM-dnV"/>
+                            <constraint firstItem="yoS-Bi-FfE" firstAttribute="trailing" secondItem="QIZ-i0-1E8" secondAttribute="trailing" constant="16" id="pIG-MH-iOR"/>
+                            <constraint firstItem="Awz-UC-pU8" firstAttribute="centerX" secondItem="yoS-Bi-FfE" secondAttribute="centerX" id="xPm-jp-LSh"/>
+                            <constraint firstItem="yoS-Bi-FfE" firstAttribute="trailing" secondItem="MEa-Bk-GPr" secondAttribute="trailing" constant="16" id="ybc-Os-nHa"/>
                         </constraints>
                     </view>
                     <connections>
@@ -166,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="43.125" y="66.549295774647888"/>
+            <point key="canvasLocation" x="42.028985507246382" y="66.294642857142861"/>
         </scene>
     </scenes>
     <resources>
